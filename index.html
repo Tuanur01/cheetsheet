@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My own Cheat sheet</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Positioning elements with CSS.</h1>
+            <h2>A cheetsheet!</h2>
+        </header>
+        <main>
+            <table>
+                <thead class="table_head">
+                    <th>Property</th>
+                    <th>Value</th>
+                    <th>Description</th>
+                </thead>
+                <tbody class="table_body">
+                    <tr class="tr1">
+                        <td rowspan="5" class="property">Display</td>
+                        <td>None, inline, block, inline-block</td>
+                        <td>Sets an element's display to none, inline, block or inline-block (see below)</td>
+                    </tr>
+                    <tr class="tr2">
+                        <td>None</td>
+                        <td>The element is hidden on the website and it's position can be taken by another element.</td>
+                    </tr>
+                    <tr class="tr1">
+                        <td>Inline</td>
+                        <td>Inline means that the element is put on one line. Example is the strong element</td>
+                    </tr>
+                    <tr class="tr2">
+                        <td>Block</td>
+                        <td>The element works like a block element</td>
+                    </tr>
+                    <tr class="tr1" id="thick">
+                        <td>Inline-block</td>
+                        <td>The element acts like a block, but also is put on a line so that other elements can be placed on the same line.</td>
+                    </tr>
+                    <tr class="tr2">
+                        <td rowspan="6" class="property">Position</td>
+                        <td>Static, Relative, Fixed, Absolute, Sticky</td>
+                        <td>Position specifies the method used to position an element.</td>
+                    </tr>
+                    <tr class="tr1">
+                        <td>Static</td>
+                        <td>The standard way of positioning an element. It's always in line with the normal document flow</td>
+                    </tr>
+                    <tr class="tr2">
+                        <td>Relative</td>
+                        <td>Positons an element relative to it's normal position. Other elements wont fill up the gaps.</td>
+                    </tr>
+                    <tr class="tr1">
+                        <td>Fixed</td>
+                        <td>Element relative to the vieuwpoint. It stays in the fixed area within the website even when scrolling</td>
+                    </tr>
+                    <tr class="tr2">
+                        <td>Absolute</td>
+                        <td>Element has a fixed position relative to the nearest positioned parent. This can also be the body.</td>
+                    </tr>
+                    <tr class="tr1" id="thick">
+                        <td>Sticky</td>
+                        <td>Bases the element on the scroll position and when it reaches a given offset position it becomes fixed.</td>
+                    </tr>
+                    <tr class="tr2">
+                        <td rowspan="5" class="property">Float</td>
+                        <td>Left, right, none, inherit</td>
+                        <td>The float property is used for positioning content inside a container</td>
+                    </tr>
+                    <tr class="tr1">
+                        <td>Left</td>
+                        <td>The element floats to the left of its container</td>
+                    </tr>
+                    <tr class="tr2">
+                        <td>Right</td>
+                        <td>The element floats to the right of its container</td>
+                    </tr>
+                    <tr class="tr1">
+                        <td>None</td>
+                        <td>The element does not float (will be displayed just where it occurs in the text). This is default</td>
+                    </tr>
+                    <tr class="tr2">
+                        <td>Inherit</td>
+                        <td>The element inherits the float value of its parent</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <footer>
+            <p>Property and value information was collected from <a href="https://www.w3schools.com/">W3 schools</a></p>
+            <p>Site created by Tuanur01 as part of the codecadamy learning process.</p>
+            <p id="copyright">Copyright Tuanur01, 2022</p>
+        </footer>
+    </body>
+</html>
